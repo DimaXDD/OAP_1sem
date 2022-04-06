@@ -1,0 +1,26 @@
+﻿Сборка начата 11.11.2021 23:38:35.
+Уровень детализации журнала: Normal.     1>Проект "E:\Лабораторные\ОАиП\Lab9\Lab9_dop3\Lab9_dop3.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "Release\Lab9_dop3.tlog\".
+       InitializeBuildStatus:
+         Создание "Release\Lab9_dop3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Lab9_dop3.cpp
+         Lab9_dop3.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Лабораторные\ОАиП\Lab9\Release\Lab9_dop3.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Лабораторные\ОАиП\Lab9\Release\Lab9_dop3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"Release\Lab9_dop3.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Лабораторные\ОАиП\Lab9\Release\Lab9_dop3.lib" /MACHINE:X86 /SAFESEH Release\Lab9_dop3.obj
+         Создание кода
+         Previous IPDB not found, fall back to full compilation.
+         All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         Lab9_dop3.vcxproj -> E:\Лабораторные\ОАиП\Lab9\Release\Lab9_dop3.exe
+       FinalizeBuildStatus:
+         Файл "Release\Lab9_dop3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Release\Lab9_dop3.tlog\Lab9_dop3.lastbuildstate".
+     1>Сборка проекта "E:\Лабораторные\ОАиП\Lab9\Lab9_dop3\Lab9_dop3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:03.23

@@ -1,0 +1,33 @@
+﻿Сборка начата 05.11.2021 16:38:31.
+Уровень детализации журнала: Normal.     1>Проект "E:\Лабораторные\ОАиП\Lab9\Lab9_main1\Lab9_main1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "E:\Лабораторные\ОАиП\Lab9\Release\".
+         Создание каталога "Release\Lab9_main1.tlog\".
+       InitializeBuildStatus:
+         Создание "Release\Lab9_main1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Lab9_main1.cpp
+         Lab9_main1.cpp
+     1>E:\Лабораторные\ОАиП\Lab9\Lab9_main1\Lab9_main1.cpp(16,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Лабораторные\ОАиП\Lab9\Release\Lab9_main1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Лабораторные\ОАиП\Lab9\Release\Lab9_main1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"Release\Lab9_main1.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Лабораторные\ОАиП\Lab9\Release\Lab9_main1.lib" /MACHINE:X86 /SAFESEH Release\Lab9_main1.obj
+         Создание кода
+         Previous IPDB not found, fall back to full compilation.
+         All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         Lab9_main1.vcxproj -> E:\Лабораторные\ОАиП\Lab9\Release\Lab9_main1.exe
+       FinalizeBuildStatus:
+         Файл "Release\Lab9_main1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Release\Lab9_main1.tlog\Lab9_main1.lastbuildstate".
+     1>Сборка проекта "E:\Лабораторные\ОАиП\Lab9\Lab9_main1\Lab9_main1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "E:\Лабораторные\ОАиП\Lab9\Lab9_main1\Lab9_main1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         E:\Лабораторные\ОАиП\Lab9\Lab9_main1\Lab9_main1.cpp(16,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:02.62
