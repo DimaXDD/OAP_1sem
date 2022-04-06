@@ -1,0 +1,23 @@
+﻿Сборка начата 24.09.2021 17:16:24.
+Уровень детализации журнала: Normal.     1>Проект "E:\Лабораторные\ОАиП\Lab4\Lab4\Lab4.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Lab4.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Лабораторные\ОАиП\Lab4\Debug\Lab4.exe" /INCREMENTAL /ILK:"Debug\Lab4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Лабораторные\ОАиП\Lab4\Debug\Lab4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Лабораторные\ОАиП\Lab4\Debug\Lab4.lib" /MACHINE:X86 Debug\Lab4.obj
+     1>MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+     1>E:\Лабораторные\ОАиП\Lab4\Debug\Lab4.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+     1>Сборка проекта "E:\Лабораторные\ОАиП\Lab4\Lab4\Lab4.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "E:\Лабораторные\ОАиП\Lab4\Lab4\Lab4.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+         E:\Лабораторные\ОАиП\Lab4\Debug\Lab4.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.32
